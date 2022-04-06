@@ -12,7 +12,7 @@ class _HakkimizdaState extends State<Hakkimizda> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Hakkımızda"),
+          title: Text("Hakkında"),
         ),
         body: Column(
 
@@ -21,31 +21,31 @@ class _HakkimizdaState extends State<Hakkimizda> {
               padding: const EdgeInsets.all(10.0),
               child: Row(children: [
                 Icon(Icons.account_balance_outlined),
-                Text("Sermina Gıda")
+                Text("Kalorika")
               ],
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: Row(children: [
-                Icon(Icons.add_shopping_cart),
-                Text("Toptan Perakende Satış")
+                Icon(Icons.food_bank),
+                Text("Kalori Sepetim")
               ],
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: Row(children: [
-                Icon(Icons.location_on_outlined),
-                Text("Antalya/Kepez")
+                Icon(Icons.restaurant_menu),
+                Text("Sağlık Durumum")
               ],
               ),
             ),
             Padding(
               padding: const EdgeInsets.all(10.0),
               child: Row(children: [
-                Icon(Icons.circle),
-                Text("1980'den bugüne hizmetinizdeyiz.")
+                Icon(Icons.menu_book),
+                Text("Kalori Programım")
               ],
               ),
             ),
@@ -53,7 +53,7 @@ class _HakkimizdaState extends State<Hakkimizda> {
               padding: const EdgeInsets.all(10.0),
               child: Row(children: [
                 Icon(Icons.people),
-                Text("Teşekkürler")
+                Text("Hedefim")
               ],
               ),
             ),
